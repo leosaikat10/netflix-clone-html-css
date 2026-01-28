@@ -40,3 +40,39 @@ body {
   color: white;
   margin-left: 10px;
 }
+
+/* Hero Section */
+
+.hero{
+  height: 90vh;
+  background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(assets/images/netflix-background.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.hero-content h1{
+  font-size: 3rem;
+  font-weight: bold;
+}
+.hero-content h2{
+  margin: 20px 0;
+}
+.email-box{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.email-box input{
+  padding: 15px;
+  width: 300px;
+}
+.email-box button{
+  padding: 15px 25px;
+  background: red;
+  border: none;
+  color: white;
+  font-size: 1rem;
+}
