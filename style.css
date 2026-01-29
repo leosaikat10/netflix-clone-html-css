@@ -104,9 +104,19 @@ body {
 
 .movie-card{
   min-width: 180px;
-  height: 260px;
+  height: 390px;
   border-radius: 6px;
   overflow: hidden;
   background: #111;
   
+}
+
+.movie-card img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.movie-card:hover img{
+  transform: scale(1.1);
 }
