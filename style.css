@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -73,6 +73,8 @@ body {
 .email-box input{
   padding: 15px;
   width: 300px;
+  border: none;
+  border-radius: 6px 0 0 6px;
 }
 .email-box button{
   padding: 15px 25px;
@@ -80,6 +82,8 @@ body {
   border: none;
   color: white;
   font-size: 1rem;
+  border-radius: 0 6px 6px 0;
+  cursor: pointer;
 }
 
 
